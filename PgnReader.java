@@ -320,7 +320,6 @@ public class PgnReader {
             {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
             {'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'}
         };
-        int movecount = 0;
         for (int i = 0; i < moves.length; i++) {
             if (!moves[i][0].isEmpty()) {
                 moveBoard(board, moves[i][0], 0);
